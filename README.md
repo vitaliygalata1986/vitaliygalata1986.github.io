@@ -1,1 +1,0 @@
-# vitaliygalata1986.github.io
