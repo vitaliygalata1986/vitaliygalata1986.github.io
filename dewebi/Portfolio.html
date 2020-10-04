@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html data-page="portfolio" lang="ru">
+<head>
+  <title>GDR</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <link rel="stylesheet" href="css/style.css" type="text/css"/>
+</head>
+<body>
+<div class="container">
+  <header class="block-header">
+    <div class="header-top wrap">
+      <div class="header-top-left">
+        <a class="header-logo" href="#"><span>De</span>Webi</a>
+        <nav class="menu menu-mobile">
+          <ul class="menu-block">
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li class="mobile"><a href="#">Eng</a></li>
+            <li onclick="showForm()" class="mobile"><a href="#">Сome in</a></li>
+          </ul>
+          <div class="clouds mob"></div>
+        </nav>
+      </div>
+      <div class="header-top-right">
+        <div class="header-burger" onclick="document.body.classList.toggle('menu-open')"></div>
+        <button class="button" onclick="showForm()">Сome in</button>
+      </div>
+    </div>
+  </header>
+  <section class="portfolios">
+    <img class="gdr-vcr" src="img/vcr.png" alt="">
+    <h1 class="gdr-sub" data-label="Portfolio">Portfolio</h1>
+    <div class="wrap">
+      <div class="portfolios-block">
+        <div class="portfolios-column">
+          <a href="#">
+            <div class="portfolios-item item-1">
+              <h2 class="portfolios-item-title">SOFT N' CUSHY AUTO</h2>
+              <p class="portfolios-item-text">Бизнес автоателье</p>
+            </div>
+          </a>
+          <a href="#">
+            <div class="portfolios-item item-2">
+              <h2 class="portfolios-item-title">ТМ РОДИНА</h2>
+              <p class="portfolios-item-text">Корпоративный сайт Костопольского маргаринового завода.</p>
+            </div>
+          </a>
+          <a href="#">
+            <div class="portfolios-item item-3">
+              <h2 class="portfolios-item-title">DOZVIL</h2>
+              <p class="portfolios-item-text">Современный сервис консалтинга в сфере оформления недвижимости и строительства</p>
+            </div>
+          </a>
+        </div>
+        <div class="portfolios-column">
+          <a href="#">
+            <div class="portfolios-item item-4">
+              <h2 class="portfolios-item-title">CUPS SERVICE</h2>
+              <p class="portfolios-item-text">Интернет магазин по продаже одноразовой посуды в Англии.</p>
+            </div>
+          </a>
+          <a href="#">
+            <div class="portfolios-item item-5">
+              <h2 class="portfolios-item-title">COMPUTER ANSWERS</h2>
+              <p class="portfolios-item-text">Сеть по ремонту компьютерной техники.</p>
+            </div>
+          </a>
+          <a href="#">
+          <div class="portfolios-item item-6">
+            <h2 class="portfolios-item-title">ASK AMICI</h2>
+            <p class="portfolios-item-text">Сеть по ремонту компьютерной техники.</p>
+          </div>
+        </a>
+          <a href="#">
+            <div class="portfolios-item item-7">
+              <h2 class="portfolios-item-title">NEXT PROJECT</h2>
+              <p class="portfolios-item-text"></p>
+            </div>
+          </a>
+        </div>
+        <div class="portfolios-column">
+          <a href="#">
+            <div class="portfolios-item item-8">
+              <h2 class="portfolios-item-title">VILLA NINA</h2>
+              <p class="portfolios-item-text">Туристический сервис онлайн бронирования</p>
+            </div>
+          </a>
+          <a href="#">
+            <div class="portfolios-item item-9">
+              <h2 class="portfolios-item-title">URBAN STYLE</h2>
+              <p class="portfolios-item-text">Интернет магазин по продаже рюкзаков в Украине.</p>
+            </div>
+          </a>
+          <a href="#">
+            <div class="portfolios-item item-10">
+              <h2 class="portfolios-item-title">MAAUA</h2>
+              <p class="portfolios-item-text">Сайт наркологического центра - (Международная  Антинаркотическая Ассоциация).</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+<footer class="footer">
+  <div class="header-top wrap">
+    <p class="footer-text">DeWebi  2020.  All rights reserved.</p>
+  </div>
+</footer>
+<div id="modal" class="modal overlay">
+  <div class="modal-box">
+    <form class="modal-form">
+       <div class="modal-top">
+         <a href="#">log in</a>
+         <a href="#">Sign up</a>
+       </div>
+      <div class="modal-bottom">
+        <input class="modal-input" type="text" placeholder="Логин">
+        <input class="modal-input" type="password" placeholder="Пароль">
+      </div>
+      <div class="modal-sign-up">
+        <p>Sign in with</p>
+        <div>
+          <a href="#"><img src="img/fc.svg" alt=""></a>
+          <a href="#"><img src="img/gg.svg" alt=""></a>
+        </div>
+      </div>
+      <div class="modal-button">
+        <a class="button button-green" href="#">log in</a>
+        <a class="button button-white" href="#" onclick="hideForm()">Cansel</a>
+      </div>
+    </form>
+  </div>
+</div>
+<script src="js/custom.js"></script>
+</body>
+</html>

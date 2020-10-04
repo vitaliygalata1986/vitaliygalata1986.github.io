@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html data-page="services" lang="en">
+<head>
+  <title>Dewebi</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <link rel="stylesheet" href="css/style.css" type="text/css"/>
+</head>
+<body>
+<div class="container">
+  <header class="block-header">
+    <div class="header-top wrap">
+      <div class="header-top-left">
+        <a class="header-logo" href="#"><span>De</span>Webi</a>
+        <nav class="menu menu-mobile">
+          <ul class="menu-block">
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li class="mobile"><a href="#">Eng</a></li>
+            <li onclick="showForm()" class="mobile"><a href="#">Сome in</a></li>
+          </ul>
+          <div class="clouds mob"></div>
+        </nav>
+      </div>
+      <div class="header-top-right">
+        <div class="header-burger" onclick="document.body.classList.toggle('menu-open')"></div>
+        <button class="button" onclick="showForm()">Сome in</button>
+      </div>
+    </div>
+  </header>
+  <section class="sevices">
+    <img class="gdr-vcr" src="img/vcr.png" alt="">
+    <div class="wrap">
+      <h1 class="gdr-sub" data-label="Services">Services</h1>
+      <div class="tabs">
+        <div class="tabs-header">
+          <div class="tab-h active" data-tab="0">Development</div>
+          <div class="tab-h" data-tab="1">Design</div>
+          <div class="tab-h" data-tab="2">Marketing</div>
+        </div>
+      </div>
+
+      <div class="tabs-body">
+        <div class="tab-b active">
+          <div class="sevices-bottom">
+            <div class="sevices-list">
+              <h3>Разработка сайта</h3>
+              <ul>
+                <li>Landing Page</li>
+                <li>Интернет-магазин</li>
+                <li>Интернет-магазин</li>
+              </ul>
+            </div>
+            <div class="sevices-list">
+              <h3>Разработка CRM</h3>
+              <ul>
+                <li>Операционные</li>
+                <li>Аналитические</li>
+                <li>Коллаборационные</li>
+                <li>Комбинированные</li>
+              </ul>
+            </div>
+            <div class="sevices-list">
+              <h3>Мобильные приложения</h3>
+              <ul>
+                <li>Приложения для IOS</li>
+                <li>Приложения для андроид</li>
+                <li>Кроссплатформенное приложение</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="tab-b">
+          <div class="sevices-bottom">
+            <div class="sevices-list">
+              <h3>Дизайн сайта</h3>
+              <ul>
+                <li>Редизайн сайта</li>
+                <li>Landing Page</li>
+                <li>Интернет-магазин</li>
+                <li>Индивидуальный проект</li>
+              </ul>
+            </div>
+            <div class="sevices-list">
+              <h3>Дизайн CRM</h3>
+              <ul>
+                <li>Операционные</li>
+                <li>Аналитические</li>
+                <li>Коллаборационные</li>
+                <li>Комбинированные</li>
+              </ul>
+            </div>
+            <div class="sevices-list">
+              <h3>Мобильные приложения</h3>
+              <ul>
+                <li>Дизайн приложения для IOS/Android</li>
+                <li>Редизайн приложения для IOS/Android/li&gt;
+                </li></ul>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="tab-b">
+          <div class="sevices-bottom">
+            <div class="sevices-list">
+              <h3>Интернет- маркетинг</h3>
+              <ul>
+                <li>Продвижение сайта</li>
+                <li>Комплексный маркетинг</li>
+                <li>Email-маркетинг</li>
+                <li>SEO продвижение</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+      <a class="button button-green" href="">Watch more</a>
+    </div>
+
+  </section>
+</div>
+
+
+<footer class="footer">
+  <div class="header-top wrap">
+    <p class="footer-text">DeWebi  2020.  All rights reserved.</p>
+  </div>
+</footer>
+
+<div id="modal" class="modal overlay">
+  <div class="modal-box">
+    <form class="modal-form">
+       <div class="modal-top">
+         <a href="#">log in</a>
+         <a href="#">Sign up</a>
+       </div>
+      <div class="modal-bottom">
+        <input class="modal-input" type="text" placeholder="Логин">
+        <input class="modal-input" type="password" placeholder="Пароль">
+      </div>
+      <div class="modal-sign-up">
+        <p>Sign in with</p>
+        <div>
+          <a href="#"><img src="img/fc.svg" alt=""></a>
+          <a href="#"><img src="img/gg.svg" alt=""></a>
+        </div>
+      </div>
+      <div class="modal-button">
+        <a class="button button-green" href="#">log in</a>
+        <a class="button button-white" href="#" onclick="hideForm()">Cansel</a>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+<div id="modal-action" class="modal overlay">
+  <div class="modal-box">
+    <form class="modal-form">
+      <div class="modal-bottom">
+        <h3>Leave your Email and get a discount</h3>
+        <input class="modal-input" type="email" placeholder="name@gmail.com" required>
+      </div>
+      <div class="modal-button">
+        <button type="submit" class="button button-green">Отправить</button>
+        <a class="button button-white" href="#" onclick="hideFormAction()">Отмена</a>
+      </div>
+    </form>
+  </div>
+</div>
+<button class="scrool" onclick="backToTop()"><img src="img/arrow-up.svg" alt=""></button>
+<script src="js/custom.js"></script>
+</body>
+</html>
+

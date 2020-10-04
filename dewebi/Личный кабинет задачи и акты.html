@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html data-page="cabinet" lang="en">
+<head>
+  <title>GDR</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <link rel="stylesheet" href="css/style.css" type="text/css"/>
+</head>
+<body>
+<div class="container">
+  <header class="block-header header-other">
+    <div class="header-top wrap">
+      <div class="header-top-left">
+        <a class="header-logo" href="#"><span>De</span>Webi</a>
+        <nav class="menu menu-mobile">
+          <ul class="menu-block">
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li class="mobile"><a href="#">Eng</a></li>
+            <li onclick="showForm()" class="mobile"><a href="#">Сome in</a></li>
+          </ul>
+          <div class="clouds mob"></div>
+        </nav>
+      </div>
+      <div class="header-top-right">
+        <div class="header-burger" onclick="document.body.classList.toggle('menu-open')"></div>
+        <button class="button" onclick="showForm()">Сome in</button>
+      </div>
+    </div>
+  </header>
+  <section class="blog">
+    <img class="gdr-vcr" src="img/vcr.png" alt="">
+    <h1 class="gdr-sub" data-label="My projects">My projects</h1>
+    <div class="wrap wrap-act">
+      <div class="tabs-header tabs-header-kabinet">
+        <div class="tab-h active" data-tab="0">Tasks</div>
+        <div class="tab-h" data-tab="1">Acts</div>
+      </div>
+
+      <div class="tabs-body">
+        <div class="tab-b active">
+          <div class="act zadacha">
+            <h3 class="table-title">Tasks</h3>
+            <table cellspacing="0">
+              <thead>
+              <tr>
+                <td>№<a href="#"><img src="img/arrow-green.png" alt=""></a></td>
+                <td class="name">Name<a href="#"><img src="img/arrow-gray.png" alt=""></a></td>
+                <td>Comment<a href="#"><img src="img/arrow-gray.png" alt=""></a></td>
+                <td>Status<a href="#"></a></td>
+                <td >Date <a href="#"><img src="img/arrow-gray.png" alt=""></a></td>
+              </tr>
+              </thead>
+              <tr>
+                <td data-label="№" class="first">01</td>
+                <td data-label="Название" class="name">Разработка cайта Urban style</td>
+                <td data-label="Комментарий" class="description">___</td>
+                <td data-label="Статус"><img class="table-x" src="img/x.png" alt=""></td>
+                <td data-label="Дата">10.03.2020</td>
+              </tr>
+              <tr>
+                <td data-label="№" class="first">02</td>
+                <td data-label="Название" class="name">Исправление страницы “Главная”</td>
+                <td data-label="Комментарий" class="description"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam amet architecto at aut consectetur consequuntur deleniti distinctio ducimus.</p></td>
+                <td data-label="Статус"><img class="table-x" src="img/x.png" alt=""><br></td>
+                <td data-label="Дата">10.03.2020</td>
+              </tr>
+              <tr>
+                <td data-label="№" class="first">03</td>
+                <td data-label="Название" class="name">Новые правки №400</td>
+                <td data-label="Комментарий" class="description">___</td>
+                <td data-label="Статус"><img class="table-check" src="img/check.png" alt=""></td>
+                <td data-label="Дата">10.03.2020</td>
+              </tr>
+              <tr>
+                <td data-label="№" class="first">04</td>
+                <td data-label="Название" class="name">Разработка страниц: "Контакты"</td>
+                <td data-label="Комментарий" class="description">___</td>
+                <td data-label="Статус"><img class="table-circle" src="img/circle1.png" alt=""></td>
+                <td data-label="Дата">10.03.2020</td>
+              </tr>
+              <tr>
+                <td data-label="№" class="first">05</td>
+                <td data-label="Название" class="name">Исправление страницы "О нас"</td>
+                <td data-label="Комментарий" class="description">___</td>
+                <td data-label="Статус"><img class="table-check" src="img/check.png" alt=""></td>
+                <td data-label="Дата">10.03.2020</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="tab-b">
+          <div class="act">
+            <h3 class="table-title">Acts</h3>
+            <table cellspacing="0">
+              <thead>
+              <tr>
+                <td>Act ID<a href="#"><img src="img/arrow-gray.png" alt=""></a></td>
+                <td>Amount <a href="#"><img src="img/arrow-gray.png" alt=""></a></td>
+                <td>Paid <a href="#"><img src="img/arrow-gray.png" alt=""></a></td>
+                <td>Left <a href="#"><img src="img/arrow-gray.png" alt=""></a></td>
+                <td>Status <a href="#"><img src="img/arrow-gray.png" alt=""></a></td>
+                <td>Date <a href="#"><img src="img/arrow-gray.png" alt=""></a></td>
+                <td></td>
+                <td></td>
+              </tr>
+              </thead>
+              <tr>
+                <td data-label="№" class="first">01</td>
+                <td data-label="Act ID" class="act-id">17384652</td>
+                <td data-label="Summa" class="summa">120 $<br></td>
+                <td data-label="Paid">10 $<br></td>
+                <td data-label="Left">110 $</td>
+                <td data-label="Status"><img class="table-circle" src="img/circle1.png" alt=""></td>
+                <td data-label="Date">10.03.2020</td>
+                <td data-label="Print"><a href="#"><img class="table-printer" src="img/printer.png" alt=""></a></td>
+              </tr>
+              <tr>
+                <td data-label="№" class="first">02</td>
+                <td data-label="Act ID" class="act-id">17384652</td>
+                <td data-label="Summa"  class="summa">120 $</td>
+                <td data-label="Paid">-</td>
+                <td data-label="Left">120 $<br></td>
+                <td data-label="Status"><img class="table-x" src="img/x.png" alt=""></td>
+                <td data-label="Date">10.03.2020</td>
+                <td data-label="Print"><a href="#"><img class="table-printer" src="img/printer.png" alt=""></a></td>
+              </tr>
+              <tr class="innner">
+                <td colspan="1"></td>
+                <td data-label="№" class="inner-first">01</td>
+                <td data-label="Name" colspan="2">Дизайн страницы "Контакты"</td>
+                <td data-label="Spent">7ч</td>
+                <td data-label="Paid">100 $</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr class="innner">
+                <td colspan="1"></td>
+                <td data-label="№" class="inner-first">01</td>
+                <td data-label="Name"  colspan="2">Верстка страницы "Контакты"</td>
+                <td data-label="Spent">8ч</td>
+                <td data-label="Paid">20 $</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td data-label="№" class="first">03</td>
+                <td data-label="Act ID" class="act-id">17384652</td>
+                <td data-label="Summa"  class="summa">120 $</td>
+                <td data-label="Paid">120 $</td>
+                <td data-label="Left">-</td>
+                <td data-label="Status"><img class="table-check" src="img/check.png" alt=""></td>
+                <td data-label="Date">10.03.2020</td>
+                <td data-label="Print"><a href="#"><img class="table-printer" src="img/printer.png" alt=""></a></td>
+              </tr>
+              <tr>
+                <td data-label="№" class="first">04</td>
+                <td data-label="Act ID" class="act-id">17384652</td>
+                <td data-label="Summa"  class="summa">120 $</td>
+                <td data-label="Paid">120 $</td>
+                <td data-label="Left">-</td>
+                <td data-label="Status"><img class="table-check"  src="img/check.png" alt=""></td>
+                <td data-label="Date">10.03.2020</td>
+                <td data-label="Print"><a href="#"><img class="table-printer" src="img/printer.png" alt=""></a></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </section>
+</div>
+
+
+<footer class="footer">
+  <div class="header-top wrap">
+    <p class="footer-text">DeWebi  2020.  All rights reserved.</p>
+  </div>
+</footer>
+
+<div id="modal" class="modal overlay">
+  <div class="modal-box">
+    <form class="modal-form">
+       <div class="modal-top">
+         <a href="#">log in</a>
+         <a href="#">Sign up</a>
+       </div>
+      <div class="modal-bottom">
+        <input class="modal-input" type="text" placeholder="Логин">
+        <input class="modal-input" type="password" placeholder="Пароль">
+      </div>
+      <div class="modal-sign-up">
+        <p>Sign in with</p>
+        <div>
+          <a href="#"><img src="img/fc.svg" alt=""></a>
+          <a href="#"><img src="img/gg.svg" alt=""></a>
+        </div>
+      </div>
+      <div class="modal-button">
+        <a class="button button-green" href="#">log in</a>
+        <a class="button button-white" href="#" onclick="hideForm()">Cansel</a>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script src="js/custom.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html data-page="projects" lang="en">
+<head>
+  <title>GDR</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <link rel="stylesheet" href="css/style.css" type="text/css"/>
+</head>
+<body>
+<div class="container">
+  <header class="block-header header-other">
+    <div class="header-top wrap">
+      <div class="header-top-left">
+        <a class="header-logo" href="#"><span>De</span>Webi</a>
+        <nav class="menu menu-mobile">
+          <ul class="menu-block">
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li class="mobile"><a href="#">Eng</a></li>
+            <li onclick="showForm()" class="mobile"><a href="#">Сome in</a></li>
+          </ul>
+          <div class="clouds mob"></div>
+        </nav>
+      </div>
+      <div class="header-top-right">
+        <div class="header-burger" onclick="document.body.classList.toggle('menu-open')"></div>
+        <button class="button" onclick="showForm()">Сome in</button>
+      </div>
+    </div>
+  </header>
+  <section class="blog">
+    <img class="gdr-vcr" src="img/vcr.png" alt="">
+    <h1 class="gdr-sub" data-label="My projects">My projects</h1>
+    <div class="wrap">
+      <div class="projects">
+        <div class="projects-item projects-item-active">Ongoing projects</div>
+        <div class="projects-item">Progress status <img src="img/arrow-down.png" alt="">
+          <div class="projects-item-block">
+            <p>In developing</p>
+            <p>Completed</p>
+
+          </div>
+        </div>
+        <div class="projects-item">Invoices <img src="img/arrow-down.png" alt="">
+          <div class="projects-item-block">
+            <p>Lorem 1</p>
+            <p>Lorem 2</p>
+            <p>Lorem 3</p>
+          </div>
+        </div>
+      </div>
+      <div class="projects-block">
+        <div>
+          <img src="img/progect-1.jpg" alt="">
+          <div class="projects-block-description">
+            <a href="#">Dozvil.ua</a>
+            <div>
+              <p>Start of the project:</p>
+              <time>10.12.19</time>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img src="img/progect-2.jpg" alt="">
+          <div class="projects-block-description">
+            <a href="#">Uban style</a>
+            <div>
+              <p>Start of the project:</p>
+              <time>10.12.19</time>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img src="img/progect-2.jpg" alt="">
+          <div class="projects-block-description">
+            <a href="#">Uban style</a>
+            <div>
+              <p>Start of the project:</p>
+              <time>10.12.19</time>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img src="img/progect-2.jpg" alt="">
+          <div class="projects-block-description">
+            <a href="#">Uban style</a>
+            <div>
+              <p>Start of the project:</p>
+              <time>10.12.19</time>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+<footer class="footer">
+  <div class="header-top wrap">
+    <p class="footer-text">DeWebi  2020.  All rights reserved.</p>
+  </div>
+</footer>
+
+<div id="modal" class="modal overlay">
+  <div class="modal-box">
+    <form class="modal-form">
+       <div class="modal-top">
+         <a href="#">log in</a>
+         <a href="#">Sign up</a>
+       </div>
+      <div class="modal-bottom">
+        <input class="modal-input" type="text" placeholder="Логин">
+        <input class="modal-input" type="password" placeholder="Пароль">
+      </div>
+      <div class="modal-sign-up">
+        <p>Sign in with</p>
+        <div>
+          <a href="#"><img src="img/fc.svg" alt=""></a>
+          <a href="#"><img src="img/gg.svg" alt=""></a>
+        </div>
+      </div>
+      <div class="modal-button">
+        <a class="button button-green" href="#">log in</a>
+        <a class="button button-white" href="#" onclick="hideForm()">Cansel</a>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script src="js/custom.js"></script>
+</body>
+</html>

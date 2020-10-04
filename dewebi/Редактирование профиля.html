@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html data-page="portfolio" lang="en">
+<head>
+  <title>GDR</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <link rel="stylesheet" href="css/style.css" type="text/css"/>
+</head>
+<body>
+<div class="container">
+  <header class="block-header">
+    <div class="header-top wrap">
+      <div class="header-top-left">
+        <a class="header-logo" href="#"><span>De</span>Webi</a>
+        <nav class="menu menu-mobile">
+          <ul class="menu-block">
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li class="mobile"><a href="#">Eng</a></li>
+            <li onclick="showForm()" class="mobile"><a href="#">Сome in</a></li>
+          </ul>
+          <div class="clouds mob"></div>
+        </nav>
+      </div>
+      <div class="header-top-right">
+        <div class="header-burger" onclick="document.body.classList.toggle('menu-open')"></div>
+        <button class="button" onclick="showForm()">Сome in</button>
+      </div>
+    </div>
+  </header>
+  <section class="blog">
+    <img class="gdr-vcr" src="img/vcr.png" alt="">
+    <h1 class="gdr-sub" data-label="Edit Profile">Edit Profile</h1>
+    <div class="act act-edit">
+      <form>
+        <div class="form-group">
+          <label><b class="required">*</b>Имя</label>
+          <input type="text" placeholder="Ваше имя" name="name" required="">
+        </div>
+        <div class="form-group">
+          <label><b class="required">*</b>Фамилия</label>
+          <input type="text" placeholder="Ваша фамилия" name="surname" required="">
+        </div>
+        <div class="form-group">
+          <label><b class="required">*</b>Телефон</label>
+          <input type="tel" placeholder="Ваш телефон" name="tel" required="">
+        </div>
+        <div class="form-group">
+          <label><b class="required">*</b>Email</label>
+          <input type="email" placeholder="Ваш email" name="email" required="">
+        </div>
+        <div class="form-group">
+          <label><b class="required">*</b>Login</label>
+          <input type="text" placeholder="Ваш Login" name="login" required="">
+        </div>
+        <div class="form-group">
+          <label><b class="required">*</b>Ваш пароль</label>
+          <input type="password" placeholder="Your password" name="password" required="">
+        </div>
+        <div class="form-group">
+          <label>Ваша кампания</label>
+          <input type="text" placeholder="Our Login" name="company">
+        </div>
+        <div class="form-group">
+          <label>Photo</label>
+          <div class="img-group">
+            <div class="dragndrop" name="image">
+              <svg xmlns="http://www.w3.org/2000/svg" height="34" viewBox="0 0 24 24" width="34"><path d="M0 0h24v24H0z" fill="none"></path><path d="M19 12v7H5v-7H3v7c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-7h-2zm-6 .67l2.59-2.58L17 11.5l-5 5-5-5 1.41-1.41L11 12.67V3h2z"></path></svg>
+              Click here or drag an image
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="button right">Сохранить</button>
+      </form>
+    </div>
+  </section>
+</div>
+
+
+<footer class="footer">
+  <div class="header-top wrap">
+    <p class="footer-text">DeWebi  2019.  All rights reserved.</p>
+  </div>
+</footer>
+<div id="modal" class="modal overlay">
+  <div class="modal-box">
+    <form class="modal-form">
+       <div class="modal-top">
+         <a href="#">log in</a>
+         <a href="#">Sign up</a>
+       </div>
+      <div class="modal-bottom">
+        <input class="modal-input" type="text" placeholder="Логин">
+        <input class="modal-input" type="password" placeholder="Пароль">
+      </div>
+      <div class="modal-sign-up">
+        <p>Sign in with</p>
+        <div>
+          <a href="#"><img src="img/fc.svg" alt=""></a>
+          <a href="#"><img src="img/gg.svg" alt=""></a>
+        </div>
+      </div>
+      <div class="modal-button">
+        <a class="button button-green" href="#">log in</a>
+        <a class="button button-white" href="#" onclick="hideForm()">Cansel</a>
+      </div>
+    </form>
+  </div>
+</div>
+<button class="scrool" onclick="backToTop()"><img src="img/arrow-up.svg" alt=""></button>
+<script src="js/custom.js"></script>
+</body>
+</html>
